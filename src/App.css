@@ -478,7 +478,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
-  height: max-content;
+  height: -webkit-fill-available;
+}
+
+.exp-bx {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 24px;
+  background: linear-gradient(45deg, #AA367C -6%, #4A2FBD 100%);
+  transition: 0.4s ease-in-out;
 }
 
 /************ Footer Css ************/

@@ -8,6 +8,7 @@ const NavBar = lazy(() => import('./components/NavBar'));
 const Banner = lazy(() => import('./components/Banner'));
 const Skills = lazy(() => import('./components/Skills'));
 const Projects = lazy(() => import('./components/Projects'));
+const Experience = lazy(() => import('./components/Experience'));
 const Footer = lazy(() => import('./components/Footer'));
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
                 <Banner />
                 <Skills />
                 <Projects />
+                <Experience />
                 <Footer />
             </div>
         </Suspense>

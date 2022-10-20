@@ -90,7 +90,7 @@ const Projects = () => {
                     <TrackVisibility>
                         {({ isVisible }) =>
                         <div className={isVisible ? "animate__animated animate__fadeIn" : "" }>
-                            <h2>{cookies.language == 'MN' ? Constant.projects_mn : Constant.projects_en}</h2>
+                            <h2 className="pb-3">{cookies.language == 'MN' ? Constant.projects_mn : Constant.projects_en}</h2>
                             <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                 <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                     <Nav.Item>
