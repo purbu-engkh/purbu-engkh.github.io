@@ -54,7 +54,7 @@ export const school2_mn = 'Эхлэл бүрэн дунд сургууль'
 export const school2_en = 'Ekhlel Secondary School'
 export const bachelor_mn = 'Бакалавр - Хэрэглээний математик'
 export const bachelor_en = 'Bachelor - Applied Mathematics'
-export const university_mn = 'Монгол Улсын Их Сургууль,\n Хэрэглээний Шинжлэх Ухаан Инженерчлэлийн Сургууль'
-export const university_en = 'School of Engineering and Applied Sciences,\n National University of Mongolia'
+export const university_mn = 'Монгол Улсын Их Сургууль'
+export const university_en = 'National University of Mongolia'
 
 
