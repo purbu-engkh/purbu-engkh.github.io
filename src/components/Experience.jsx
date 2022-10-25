@@ -53,7 +53,7 @@ const Experience = () => {
                                             <CircleFill className="mt-1"/>
                                             <div className="ms-2">
                                                 <h4>{cookies.language == 'MN' ? Constant.bachelor_mn : Constant.bachelor_en}</h4>
-                                                <h6>2007.09 - 2013.06</h6>
+                                                <h6>2013.09 - 2017.06</h6>
                                                 <h5>{cookies.language == 'MN' ? Constant.university_mn : Constant.university_en}</h5>
                                             </div>
                                         </div>
